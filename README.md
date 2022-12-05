@@ -56,4 +56,5 @@ All the necessary data was scraped into different tables from each source:
 
 I chose to plot both the "positive" and "negative" differences differently for ease of comparison. The various bar charts were generated using the barh method on the gas_prices table, specifically the "Difference" column. 
 
+<img src="positive_price_differences.png" width="425"/> <img src="negative_price_differences.png" width="425"/>
 ![positive price differences](positive_price_differences.png "Positive Price Differences") ![negative price differences](negative_price_differences.png "Negative Price Differences")
