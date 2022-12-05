@@ -14,3 +14,8 @@ All the necessary data was scraped into different tables from each source:
 - Data on GST -> taxes_table: taxes.csv
 - Data on exchange rates -> exchange_rates: https://www.tpsgc-pwgsc.gc.ca/cgi-bin/recgen/er.pl?Language=E
 - Data on currency symbols -> symbols: https://www.eurochange.co.uk/travel/tips/world-currency-abbreviations-symbols-and-codes-travel-money
+
+### 2. Tidying Each Table & Adding it to main gas_prices Table
+
+#### gas_prices Table
+The initial gas_prices table had to to be tidied up by removing the "rank" column
