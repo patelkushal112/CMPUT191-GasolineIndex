@@ -17,5 +17,10 @@ All the necessary data was scraped into different tables from each source:
 
 ### 2. Tidying Each Table & Adding it to main gas_prices Table
 
-#### gas_prices Table
-The initial gas_prices table had to to be tidied up by removing the "rank" column
+#### Gas Prices Table
+- The only tidying required for the initial gas_prices table was dropping the "Rank" column, and renaming the "Gasoline (1 liter)" column to "Price (CAD)"
+
+#### Currency Codes Table 
+1. In order to add the currency_codes table to the gas_prices table, the "Country" column had to be changed from all uppercase to only capitalized. 
+2. Then the table was joined with the gas_prices table.
+3. Finally, the useless columns were dropped ("Currency", "Number"). 
