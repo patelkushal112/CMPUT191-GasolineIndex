@@ -87,4 +87,14 @@ After analyzing the plot above, and using the correlation function, we can see t
 #### Negative Difference 
 ![difference vehicles scatter](negative_scatter.png "Scatter Plot of Negative Price Difference vs Vehicles")
 
-After analyzing the plot above, and using the correlation function, we can see that the negative price difference and vehicles per 1,000 people are correlated more than positive price difference and vehicles per 1,000 people, but still not correlated enough to confirm a correlation. They have a correlation value of 0.27 
+After analyzing the plot above, and using the correlation function, we can see that the negative price difference and vehicles per 1,000 people are correlated more than positive price difference and vehicles per 1,000 people, but still not correlated enough to confirm a correlation. They have a correlation value of 0.27.
+
+## Conclusion 
+
+To conclude, I learned that if you are ever on vacation in Finland, it would be best to not rent a car, but to use public transportation instead. Furthermore, the gas prices in Nigeria are so cheap that I wish I was attending the University of Nigera rather than the UofA. Interestingly, I learned that the amount of vehicles does not impact the price of gasoline, but there is a correlation that the countries with positive price differences (more expensive than Canada) overall had more vehicles than the countries with negative price differences (less expensive than Canada).
+
+### Sidenote...
+
+After looking at the Positive Price Differences bar chart, I notice that quite a few of the countries were European. Therefore, to investigate this further, I decided to plot the data on a map. In order to do this, I received the Latitudes and Longitudes of each country using a table that was already provided earlier during the mapping lecture and added them to the table. The table was then cleaned by dropping the unnecessary columns. I also added another column that assigned a color value depending on where the price difference was positive or negative (positive = red, negative = green). The data was the plotted on a map and the results were interesting. 
+
+![Map](map.png "Map of Gas Prices Relative to Canada")
