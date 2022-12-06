@@ -80,4 +80,4 @@ According to the graphs above, we can see that overall the countries with negati
 ### 7. Determine the Correlation 
 
 #### Positive Difference 
-![difference vehicles scatter](positive_vehicle_scatter.png "Scatter Plot of Positive Price Difference vs Vehicles")
+![difference vehicles scatter](positive_scatter.png "Scatter Plot of Positive Price Difference vs Vehicles")
