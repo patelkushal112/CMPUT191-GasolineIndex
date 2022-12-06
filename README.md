@@ -98,3 +98,5 @@ To conclude, I learned that if you are ever on vacation in Finland, it would be 
 After looking at the Positive Price Differences bar chart, I notice that quite a few of the countries were European. Therefore, to investigate this further, I decided to plot the data on a map. In order to do this, I received the Latitudes and Longitudes of each country using a table that was already provided earlier during the mapping lecture and added them to the table. The table was then cleaned by dropping the unnecessary columns. I also added another column that assigned a color value depending on where the price difference was positive or negative (positive = red, negative = green). The data was the plotted on a map and the results were interesting. 
 
 ![Map](map.png "Map of Gas Prices Relative to Canada")
+
+The majority of the red pins were found in Europe, while the green pins were all outside of Europe. I wonder why that is.
