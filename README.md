@@ -35,7 +35,7 @@ All the necessary data was scraped into different tables from each source:
 4. Finally, the values in the "GST" column were converted from a whole number (percentage) to a decimal that could be used for calculations
 
 #### Exchange Rates Table 
-1. The exchange_rates table was added to the gas_prices table using the columns "Code" and "Currency\xa0Code" columns.
+1. The exchange_rates table was added to the gas_prices table using the columns "Code" and "Currency\xa0Code".
 2. Furthermore, the "Currency Description" column was also dropped to tidy up the final table. 
 
 ### 3. Add Columns to the Table of the Necessary Data required to Generate Graphs. 
@@ -56,3 +56,15 @@ All the necessary data was scraped into different tables from each source:
 
 I chose to plot both the "positive" and "negative" differences differently for ease of comparison. The various bar charts were generated using the barh method on the gas_prices table, specifically the "Difference" column. 
 ![positive price differences](positive_price_differences.png "Positive Price Differences") ![negative price differences](negative_price_differences.png "Negative Price Differences")
+
+As depicted by the data above, the two countries out of the dataset where the gasoline prices are the highest are Finland and Greece. The price of gas in these countries are $1.85 and $1.66 per liter respectively more expensive than Canada. On the other hand, the two countries out of the dataser where the gasoline prices are the lowest are Nigeria and Egypt. The price of gas in these countries are $1.51 and $1.48 per liter respectively less expensive than Canada.
+
+### 5. Scrape Vehicle Data & Add it to the Table 
+
+In an attempt to gain some insight as to why these countries had these gas prices, I gathered some data on vehicles per 1,000 people in each country, where available, from countries around the world. The data was obtained from https://en.wikipedia.org/wiki/List_of_countries_by_vehicles_per_capita. The logic behind gathering this data was to see if the number of vehicles in each country affected the price of gasoline. According to the laws of supply and demand, if there is more demand for gasoline, then the prices of gasoline increases. Therefore, countries with more vehicles would have more expensive gasoline. In order to test this, I generated a bar chart of vehicles in each country. However, before that, some data cleaning had to occur. 
+
+#### Data Cleaning 
+1. The vehicles table was joined with the gas_prices table with the use of the "Country" and "Country or region" columns. 
+2. The "Total" and "Year" columns were dropped.
+3. Finally, the "Motor vehiclesper 1,000 people" column was renamed to "Vehicles/1,000 People" 
+
