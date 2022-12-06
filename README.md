@@ -81,3 +81,10 @@ According to the graphs above, we can see that overall the countries with negati
 
 #### Positive Difference 
 ![difference vehicles scatter](positive_scatter.png "Scatter Plot of Positive Price Difference vs Vehicles")
+
+After analyzing the plot above, and using the correlation function, we can see that the positive price difference and vehicles per 1,000 people are not correlated. They have a correlation value of 0.02.
+
+#### Negative Difference 
+![difference vehicles scatter](negative_scatter.png "Scatter Plot of Negative Price Difference vs Vehicles")
+
+After analyzing the plot above, and using the correlation function, we can see that the negative price difference and vehicles per 1,000 people are correlated more than positive price difference and vehicles per 1,000 people, but still not correlated enough to confirm a correlation. They have a correlation value of 0.27 
