@@ -55,7 +55,8 @@ All the necessary data was scraped into different tables from each source:
 ### 4. Plot The Differences
 
 I chose to plot both the "positive" and "negative" differences differently for ease of comparison. The various bar charts were generated using the barh method on the gas_prices table, specifically the "Difference" column. 
-![positive price differences](positive_price_differences.png "Positive Price Differences") ![negative price differences](negative_price_differences.png "Negative Price Differences")
+![positive price differences](positive_price_differences.png "Positive Price Differences")
+![negative price differences](negative_price_differences.png "Negative Price Differences")
 
 As depicted by the data above, the two countries out of the dataset where the gasoline prices are the highest are Finland and Greece. The price of gas in these countries are $1.85 and $1.66 per liter respectively more expensive than Canada. On the other hand, the two countries out of the dataser where the gasoline prices are the lowest are Nigeria and Egypt. The price of gas in these countries are $1.51 and $1.48 per liter respectively less expensive than Canada.
 
@@ -68,3 +69,5 @@ In an attempt to gain some insight as to why these countries had these gas price
 2. The "Total" and "Year" columns were dropped.
 3. Finally, the "Motor vehiclesper 1,000 people" column was renamed to "Vehicles/1,000 People" 
 
+![positive vehicles](positive_vehicles.png "Vehicles")
+![negative vehicles](negative_vehicles.png "Vehicles")
