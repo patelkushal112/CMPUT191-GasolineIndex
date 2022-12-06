@@ -69,5 +69,15 @@ In an attempt to gain some insight as to why these countries had these gas price
 2. The "Total" and "Year" columns were dropped.
 3. Finally, the "Motor vehiclesper 1,000 people" column was renamed to "Vehicles/1,000 People" 
 
+### 6. Plot the Vehicles
+
+Plots of the number of vehicles per 1,000 people in each country separated by price differences 
 ![positive vehicles](positive_vehicles.png "Vehicles")
 ![negative vehicles](negative_vehicles.png "Vehicles")
+
+According to the graphs above, we can see that overall the countries with negative price differences do have less vehicles than the countries with positive price differences, but the theory doesn't hold true for each individual country. For example, Germany has more vehicles than Greece, but cheaper gas prices. A correlation cannot be concluded from these graphs. Therefore, we can generate scatter plots to check out the correlation between the variables. 
+
+### 7. Determine the Correlation 
+
+#### Positive Difference 
+![difference vehicles scatter](positive_vehicle_scatter.png "Scatter Plot of Positive Price Difference vs Vehicles")
