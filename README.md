@@ -7,6 +7,7 @@ Purchasing power parity is an economics concept in which there is a theoretical 
 # Why Gasoline?
 
 In an era where transportation is a necessity, gasoline serves to be an important unavoidable cost of transportation. The motivation behind the selection of gasoline stems from my experiences over the past couple of years. As a university student, money is scarce and valuable. Therefore, I attempted to prevent my downfall into debt via means of a budget. Through the first couple of months of budgetting I came to the realization as to what most of my money is going towards, and you can probably guess what it is based on the title of this website. That's right! Gasoline!! For that reason I wanted to base my project on the price of gas worldwide, to possibly see if I should be living in a different part of the world, and not Canada. 
+
 ![gasoline gif](free-gas-gasoline.gif "Gasoline GIF")
 
 # The Index 
@@ -80,6 +81,7 @@ The tables were combined in the following order, and the overall main table was 
 ## 4. Plot The Differences
 
 I chose to plot both the "positive" and "negative" differences differently for ease of comparison. The various bar charts were generated using the barh method on the gas_prices table, specifically the "Difference" column. 
+
 ![positive price differences](positive_price_differences.png "Positive Price Differences")
 ![negative price differences](negative_price_differences.png "Negative Price Differences")
 
@@ -88,6 +90,7 @@ As depicted by the data above, the two countries out of the dataset where the ga
 ## 5. Scrape Vehicle Data & Add it to the Table 
 
 In an attempt to gain some insight as to why these countries had these gas prices, I gathered some data on vehicles per 1,000 people in each country, where available, from countries around the world. The data was obtained from https://en.wikipedia.org/wiki/List_of_countries_by_vehicles_per_capita. The logic behind gathering this data was to see if the number of vehicles in each country affected the price of gasoline. According to the laws of supply and demand, if there is more demand for gasoline, then the prices of gasoline increases. Therefore, countries with more vehicles would have more expensive gasoline. With relation to my dataset, the expected results would show Finland having the most vehicles while Nigeria has the least vehicles. In order to test this, I generated a bar chart of vehicles in each country. However, before that, some data cleaning had to occur. 
+
 ![vehicles table](vehicles.png "Table of Vehicles in each Country")
 
 ### Data Cleaning 
@@ -100,6 +103,7 @@ In an attempt to gain some insight as to why these countries had these gas price
 ## 6. Plot the Vehicles
 
 Plots of the number of vehicles per 1,000 people in each country separated by price differences 
+
 ![positive vehicles](positive_vehicles.png "Vehicles")
 ![negative vehicles](negative_vehicles.png "Vehicles")
 
