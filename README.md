@@ -91,6 +91,7 @@ In an attempt to gain some insight as to why these countries had these gas price
 1. The vehicles table was joined with the gas_prices table with the use of the "Country" and "Country or region" columns. 
 2. The "Total" and "Year" columns were dropped.
 3. Finally, the "Motor vehiclesper 1,000 people" column was renamed to "Vehicles/1,000 People"
+
 ![final table!](final_final_table.png "Complete Table")
 
 ## 6. Plot the Vehicles
