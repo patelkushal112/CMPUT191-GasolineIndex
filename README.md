@@ -1,3 +1,4 @@
+theme: Dinky
 # The Gasoline Index - Kushal Patel 
 
 ## Why Gasoline?
