@@ -1,3 +1,4 @@
+theme: minima
 # The Gasoline Index - Kushal Patel 
 
 ## Why Gasoline?
