@@ -5,6 +5,7 @@ Purchasing power parity is an economics concept in which there is a theoretical 
 # Why Gasoline?
 
 In an era where transportation is a necessity, gasoline serves to be an important unavoidable cost of transportation. The motivation behind the selection of gasoline stems from my experiences over the past couple of years. As a university student, money is scarce and valuable. Therefore, I attempted to prevent my downfall into debt via means of a budget. Through the first couple of months of budgetting I came to the realization as to what most of my money is going towards, and you can probably guess what it is based on the title of this website. That's right! Gasoline!! For that reason I wanted to base my project on the price of gas worldwide, to possibly see if I should be living in a different part of the world, and not Canada. 
+![gasoline gif](free-gas-gasoline.gif "Gasoline GIF")
 
 # The Index 
 
