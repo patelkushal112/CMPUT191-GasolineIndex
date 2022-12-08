@@ -21,6 +21,8 @@ All the necessary data was scraped into different tables from each source:
 
 ## 2. Tidying Each Table & Adding it to main gas_prices Table
 
+The tables were combined in the following order, and the overall main table was called gas_prices. That is why some columns that were used to add certain tables are not found on the original gas_prices table but on all the tables combined up to that point.
+
 ### Gas Prices Table
 ![gas_prices table](gas_prices.png "Table of Gas Prices")
 - The only tidying required for the initial gas_prices table was dropping the "Rank" column, and renaming the "Gasoline (1 liter)" column to "Price (CAD)"
