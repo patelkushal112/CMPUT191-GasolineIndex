@@ -1,6 +1,6 @@
 # Purchasing Power Parity (PPP)
 
-Purchasing power parity is an economics concept in which there is a theoretical exchange rate that allows you to buyy the same amount of goods and services in every country. For example, you should be able to buy a can of pepsi in Canada, and then fly to lets say Egypt, and after converting your Canadian dollars to Egyptian pounds, buy a can of pepsi at the same worth of currency that was paid in Canada. However, this is not the case, and there are many external factors that affect this. Therefore, I decided to dig a little deeper into the prices of gasoline around the world.
+Purchasing power parity is an economics concept in which there is a theoretical exchange rate that allows you to buy the same amount of goods and services in every country. For example, you should be able to buy a can of pepsi in Canada, and then fly to lets say Egypt, and after converting your Canadian dollars to Egyptian pounds, buy a can of pepsi at the same worth of currency that was paid in Canada. However, this is not the case, and there are many external factors that affect this. Therefore, I decided to dig a little deeper into the prices of gasoline around the world.
 
 # Why Gasoline?
 
