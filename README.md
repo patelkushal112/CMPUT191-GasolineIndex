@@ -124,7 +124,7 @@ After looking at the Positive Price Differences bar chart, I notice that quite a
 
 ![Map](map.png "Map of Gas Prices Relative to Canada")
 
-The majority of the red pins were found in Europe, while the green pins were all outside of Europe. I wonder why that is.
+The majority of the red pins were found in Europe, while the green pins were all outside of Europe. I wonder why that is...
 
 #### Citations 
 1. https://en.wikipedia.org/wiki/Purchasing_power_parity
